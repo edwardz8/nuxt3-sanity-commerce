@@ -17,6 +17,8 @@ console.log(data.value)
                 :price="product.store.price"
                 :body="product.store.body"
                 :image="product.store.previewImageUrl"
+                :slug="product.store.slug.current"
+                :tags="product.store.tags"
                 />
         </div>
     </UContainer>
