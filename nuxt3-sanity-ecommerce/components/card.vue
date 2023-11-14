@@ -5,12 +5,14 @@
       <h1 class="font-bold text-lg text-gray-100">{{ title }}</h1>
       <h2 class="font-bold text-lg text-gray-100">{{ price }}</h2>
     </span>
+    <NuxtLink :to="`/products/${slug}`">{{ title }}</NuxtLink>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
   title: String,
+  slug: String,
   image: String,
   price: Number,
   body: String
