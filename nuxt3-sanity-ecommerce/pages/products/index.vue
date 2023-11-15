@@ -1,7 +1,6 @@
 <script setup>
 const query = `*[_type == 'product']`
 const { data } = await useSanityQuery(query)
-console.log(data.value)
 
 /* data.value.forEach((currentValue) => {
     console.log(currentValue.store.previewImageUrl)
