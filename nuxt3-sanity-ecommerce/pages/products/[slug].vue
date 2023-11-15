@@ -13,7 +13,7 @@ product.value = data.value[0];
  * NOTE: data for a single product is stored in an array; basically an array with one object (product) in it. 
  * this is how Sanity handles single data, so we just fetch the first item of that array
  * data or data.value will give you an array. data.value[0] will give you what you want
- */
+*/
 
 </script>
 
