@@ -15,12 +15,6 @@ console.log(route.params.slug)
         <h1>Product - Dynamic Route</h1>
         <p>{{ data }}</p>
         <pre>{{ route.params.slug }}</pre>
-        <Card   
-            :title="data.title"
-            :price="data.price"
-            :body="data.body"
-            :image="data.image"
-            :slug="data.slug"
-        />
+        <Card :title="data.title" :price="data.price" :body="data.body" :image="data.image" :slug="data.slug" />
     </UContainer>
 </template>

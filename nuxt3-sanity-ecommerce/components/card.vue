@@ -17,6 +17,7 @@
 <script setup>
 const props = defineProps({
   title: String,
+  slug: String,
   image: String,
   price: Number,
   body: String,
