@@ -1,5 +1,6 @@
 <template>
   <div class="h-80 w-64 m-8">
+    <!-- NOTE: you are also using this NuxtLink in a single page, but you are already at that page, so it's a link to the same page -->
     <NuxtLink :to="`/products/${slug}`">
       <img :src="image" class="h-72 w-64" />
     </NuxtLink>
