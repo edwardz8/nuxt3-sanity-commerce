@@ -17,6 +17,5 @@ export default defineNuxtConfig({
   sanity: {
     projectId: process.env.NUXT_ENV_SANITY_PROJECT_ID,
     dataset: process.env.NUXT_ENV_SANITY_DATASET,
-  },
-  // css: ["@/theme/variables.css"],
+  }
 })
